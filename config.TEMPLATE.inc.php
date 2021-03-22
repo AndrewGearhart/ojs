@@ -79,13 +79,13 @@ allow_url_fopen = Off
 ; Base URL override settings: Entries like the following examples can
 ; be used to override the base URLs used by OJS. If you want to use a
 ; proxy to rewrite URLs to OJS, configure your proxy's URL here.
-; Syntax: base_url[journal_path] = http://www.myUrl.com
+; Syntax: base_url[journal_path] = http://www.myJournal.example
 ; To override URLs that aren't part of a particular journal, use a
 ; journal_path of "index".
 ; Examples:
-; base_url[index] = http://www.myUrl.com
-; base_url[myJournal] = http://www.myUrl.com/myJournal
-; base_url[myOtherJournal] = http://myOtherJournal.myUrl.com
+; base_url[index] = http://www.myJournal.example
+; base_url[myJournal] = http://www.myJournal.example/myJournal
+; base_url[myOtherJournal] = http://myOtherJournal.myJournal.example
 
 ; Generate RESTful URLs using mod_rewrite.  This requires the
 ; rewrite directive to be enabled in your .htaccess or httpd.conf.
